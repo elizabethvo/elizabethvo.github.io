@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Elizabeth Vo-Phamhi - more</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700|Source+Sans+Pro:400,400i" rel="stylesheet">
+    <body>
+        <div class="page">
+            <div class="section row">
+                <h1 class="col">more</h1>
+                <div class="contact-info col-right">
+                <!-- <div>201 . 920 . 0729</div> -->
+                    <div><a href="mailto:lizvo@sas.upenn.edu">lizvo@sas.upenn.edu</a></div>
+                    <div><a href="https://www.linkedin.com/in/elizabeth-v-04a8a2219/">linkedin</a></div>
+                </div>
+            </div>
+                <section class="section main-summary">
+            <section style="background-color: #ffffff;">
+                <div><p style='color: #2d3540'>Liz is an ORDP Analyst at Genentech/Roche. 2022 graduate of the University of Pennsylvania with degrees in Computational Cognitive Science and Classics. Harpist, pasta lover, NBA watcher, and new running enthusiast! Passionate about leveraging data analytics and science to enhance patient outcomes and developing transformative operational advancements while fostering a commitment to lifelong learning. </p></div>
+            </section>
+        </section>
+            <div class="section row">
+                <h2 class="col">Skills</h2>
+                <div class="section-text col-right row">
+                    <ul class="keywords" style="width:100%">
+                        <span class="skill-cat">Technical:</span>
+                        <li>Python, Java, OCAML, MatLab, Git</li>
+                        <li>Data Visualization, Tableau, Jupyter, Hypothesis Testing, Stats Models</li>
+                        <li>Veeva/Phoenix Portal; MyBuy; ThoughtSpot</li>
+                    </ul>
+                    <ul class="keywords" style="width:100%">
+                        <span class="skill-cat">Comms/Design:</span>
+                        <li>Adobe Photoshop, Illustrator</li>
+                        <li>Clip Studio Paint</li>
+                        <li>Autodesk</li>
+                        
+                    </ul>
+                    <ul class="keywords">
+                        <span class="skill-cat">Misc:</span>
+                        <li>Microsoft Office / Google suite apps</li>
+                        <li>Vietnamese, Japanese, Spanish proficiency</li>
+                        <li>CPR/AED Certified - Basic Life Support (BLS)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="section row">
+                <h2 class="col">Education</h2>
+                <div class="section-text col-right">
+                    <h3><span class="emph">B.A.s</span> in Cognitive Science (Computation Concentration) and Classical Studies</h3>
+                    <div>The University of Pennsylvania</div>
+                    <div class="row">
+                        <div class="col light">Philadelphia, PA</div>
+                        <div class="col-right light">August 2018 - May 2022</div>
+                    </div>
+                </div>
+            </div>
+            <div class="section row">
+
+
+                
+                <h2 class="col">Work Experience</h2>
+
+                <div class="section-text col-right">
+                    <div class="row">
+                        <div class="col">
+                            <h3>Genentech / Roche </h3>
+                        </div>
+                    </div>
+                    <div class="row subsection">
+                        <div class="emph col"> ORDP Analyst I | South San Francisco, CA</div>
+                        <div class="col-right light">August 2023 - Present</div>
+                    </div>
+                    <ul class="desc">
+                        <li>The Operations Rotational Development Program (ORDP) is a highly selective 2-year leadership program within the Pharma-Technical (PT) Operations of Genentech/Roche. ORDP analyst rotates in 4 different functional business areas of PT, enabling the participants to design and implement new processes, support world-class manufacturing and help significantly drive business productivity and profitability.</li>
+                        <li>Rotation 1:</li>
+                        <li>Role as a core team member for the PT Manufacturing Academy (PTMA), a global program championed by Pierre Simon (Head of Pharma Technical Mfg) to harmonize operations in Roche’s internal manufacturing network of 800+ mfg. techs and QC associates.  </li>
+                        <li><u>Skills and curriculum development:</u> Developed standardized decision-tree framework to identify technical skills/competencies developed through the PTMA in alignment with P&C, PTQ Learning, Digital & OE, and P&OG; developed repository of skills/competencies using framework for 2024 PTMA pilots; liaised with executive program sponsors and partners across PT.  </li>
+                        <li><u>Data and digital:</u> Analyzed UPE clusters data (from Veeva) to identify risky process areas for 2024 PTMA Pilot scope; made Tableau data dashboards to analyze and visualize survey data on academic course content delivery performance, leveraged Google Analytics to track gSite traffic and user trends; develop a data stream of MES data to connect with a synthetic digital training environment (virtual rendering of DS/DP equipment) for practical training in 2024 pilot study.   </li>
+
+                </div> 
+                <div class="section-text col-right">
+                    <div class="row">
+                        <div class="col">
+                        </div>
+                    </div>
+                    <div class="row subsection">
+                        <div class="emph col"> Global Procurement Intern </div>
+                        <div class="col-right light">June 2022 - August 2023</div>
+                    </div>
+                    <ul class="desc">
+                        <li>Support Global and Local Category Managers through data analytics, generate and analyze spend reports to manage a portfolio of $150M in direct pharma procurement spend (raw materials) and formulate cost savings solutions.</li>
+                        <li>Collected, quality assured, analyzed, and visualized data (stakeholder surveys, delivery metrics and KPIs) internally/externally to support global supplier relationship management. </li>
+        
+                </div> 
+
+                
+                <div class="section-text col-right">
+                    <div class="row">
+                        <div class="col">
+                        </div>
+                    </div>
+                    <div class="row subsection">
+                        <div class="emph col"> Knowledge Management Intern, Early Clinical Development </div>
+                        <div class="col-right light">Summer 2021</div>
+                    </div>
+                    <ul class="desc">
+                        <li>Designed and implemented an end-to-end strategy to document implicit knowledge of Clinical Operations research experts in Early Clinical Development. Consulted weekly with stakeholders to present findings and ensure usability of my work, assessed KPI metrics to evaluate functionality; voted winner of the Intern Project Showcase (out of a cohort of 400+ interns).</li>
+                        
+                </div> 
+                
+                
+                <div class="section-text col-right">
+                    <div class="row">
+                        <div class="col">
+                            <h3>Engineering Dept., University of Pennsylvania</h3>
+                        </div>
+                    </div>
+                    <div class="row subsection">
+                        <div class="emph col">Head Teaching Assistant, Python for Data Analytics (CIS105)</div>
+                        <div class="col-right light">August 2019 - May 2022</div>
+                    </div>
+                    <ul class="desc">
+                        <li>Selected by managing professor to be head TA for Intro Python for Data Analytics; entails managing a staff of 10 co-TAs and 100 students in addition to regular TA responsibilities (see below)</li>
+                        <li>Teach weekly section to 25 students and host weekly office hours to reinforce concepts learned in class. Contribute to design and grading of homework and exams, assess quality and functionality of code.</li>
+                        <li>Mentor students on final projects using statistics to crunch real-world data using hypothesis tests, permutation tests, and stats model APIs.</li>
+                </div>
+                
+                    
+                    
+                <div class="section-text col-right">
+                    <div class="row">
+                        <div class="col">
+                            <h3>Bioengineering Dept., Children’s Hospital of Philadelphia (CHOP)</h3>
+                        </div>
+                    </div>
+                    <div class="row subsection">
+                        <div class="emph col">Research Assistant, Data Analyst</div>
+                        <div class="col-right light">Summer 2020</div>
+                    </div>
+                    <ul class="desc">
+                        <li>Research on human decision making in self driving automobiles using a driving simulator.</li>
+                        <li>Responsibilities include analyzing and visualization of data, producing stats models and predictive analytics.</li>
+                        
+                </div>
+                    
+                    
+                    
+                <div class="section-text col-right">
+                    <div class="row">
+                        <div class="col">
+                            <h3>Dept. of Injury Prevention, Children’s Hospital of Philadelphia (CHOP)</h3>
+                        </div>
+                    </div>
+                    <div class="row subsection">
+                        <div class="emph col">Research Coordinator</div>
+                        <div class="col-right light">February 2019 - Present</div>
+                    </div>
+                    <ul class="desc">
+                        <li>Facilitate research between CHOP scientists, develop outreach initiatives to introduce emerging technologies in AI/ML and their applications to the medical community.</li>
+                        <li>Produce communication deliverables, design and direct advertising campaigns for department events.</li>
+                </div>
+                                  
+            </div>
+            <div class="section row">
+                <h2 class="col">Selected Research & Projects</h2>
+                <div class="section-text col-right">
+                    <div class="row">
+                        <div class="col">
+                            <h3>SIMPL Health Literacy Lab at Stanford</h3>
+                        </div>
+                    </div>
+                    <div class="row subsection">
+                        <div class="emph col">Project Co-Lead</div>
+                        <div class="col-right light">March 2020 - August 2021</div>
+                    </div>
+                    <ul class="desc">
+                        <li>Lead projects to provide underserved communities with critical public health information regarding the the coronavirus pandemic.</li>
+                        <li>Translate CDC communications to minority languages (Vietnamese esp.), simplifying scientific jargon to layman terms.</li>
+                        <li>Assist in designing and editing illustrations of COVID-19 communication deliverables.</li>
+                </div>
+                <div class="section-text col-right">
+                    <div class="row">
+                        <div class="col">
+                            <h3>Stanford Archaeology Center</h3>
+                        </div>
+                    </div>
+                    <div class="row subsection">
+                        <div class="emph col">Computational Research Assistant</div>
+                        <div class="col-right light">2018 - Present</div>
+                    </div>
+                    <ul class="desc">
+                        <li>Computational imaging and 3D analysis of artifacts excavated from the 7th century Yassiada shipwreck.</li>
+                </div>
+                <div class="section-text col-right">
+                    <div class="row">
+                        <div class="col">
+                            <h3>Autunomous Teen Driving Safety Research, CHOP, Center for Injury Research and Prevention</h3>
+                        </div>
+                    </div>
+                    <div class="row subsection">
+                        <div class="emph col">Research Assistant</div>
+                        <div class="col-right light">2020 - 2021</div>
+                    </div>
+                    <ul class="desc">
+                        <li>Research on human decision making in self driving automobiles using a driving simulator. Analyze and visualize data, using stats models in Jupyter. See paper published <a href="https://www.sae.org/publications/technical-papers/content/2021-01-0861/">here</a>.</li>
+                </div>
+                <div class="section-text col-right">
+                    <h3><a href="https://github.com/elizabethvo">github.com/elizabethvo</a></h3>
+                </div>
+            </div>
+            
+            <div class="section row">
+                <h2 class="col">Honors & Activities</h2>
+                <div class="section-text col-right">
+                    <div class="row">
+                        <div class="col">
+                        </div>
+                    </div>
+                    <div class="row subsection">
+                        <div class="emph col"> <i>Phi Beta Kappa | University of Pennsylvania College Alumni Society Award (2022) | University of Pennsylvania Dean’s List (2018-2022) | Alpha Omega Epsilon STEM Society @ Penn</i></div>
+                        <div class="col-right light">...</div>
+                    </div>
+                    <div class="desc">___</div>
+                </div>	
+            </div>
+                    
+                    
+                    
+        </div>
+    </body>
+</html>
