@@ -1,242 +1,131 @@
-body { margin: 0;
-       padding: 0;
-       background-color: #fff;
-       font-size: 12px;
-       font-family: 'Source Sans Pro', sans-serif;
-       -webkit-font-smoothing: subpixel-antialiased;
+/* ===============================
+   Base
+================================= */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-size: 12px;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
-* { box-sizing: border-box;
-    -moz-box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
-/*
- Primary Rules
-*/
-h1 { font-weight: 300;
-     margin: 5px 0 0;
-     font-size: 40px;
-     color:#0c457d;
-     padding: 0 10px 10px;
-     border-radius:2px;
-    font-family: 'Helvetica', serif;
+h1 {
+  font-weight: 300;
+  margin: 5px 0 0;
+  font-size: 40px;
+  color:#0c457d;
+  padding: 0 10px 10px;
+  border-radius:2px;
+  font-family: 'Helvetica', serif;
 }
-h2 { color: #ba0018;
-     width: 150px;
-     font-size: 18px;
-     padding-left: 20px;
-     padding-top: 12px;
-     font-weight:700;
-     font-family: 'Helvetica', serif;
+h2 {
+  color: #ba0018;
+  width: 150px;
+  font-size: 18px;
+  padding-left: 20px;
+  padding-top: 12px;
+  font-weight:700;
+  font-family: 'Helvetica', serif;
 }
-h3 { font-size: 18px;
-     font-weight: bold;
-     margin-bottom: 0;
-     line-height: 28px;
-     font-family: 'Helvetica', serif;
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 0;
+  line-height: 28px;
+  font-family: 'Helvetica', serif;
 }
-h2, h3 { margin-top: 5px }
-a { color: #ba0018;
-    display: inline-block;
-    text-decoration: none;
-    padding:2px 4px;
-    border-radius:2px;
-    margin-right:-2px;
+h2, h3 { margin-top: 5px; }
+
+a {
+  color: #ba0018;
+  display: inline-block;
+  text-decoration: none;
+  padding: 2px 4px;
+  border-radius: 2px;
+  margin-right: -2px;
 }
+a:hover { background-color:#ba0018; color:#fff; }
 
 li {
-    list-style-type: square;
-    list-style-position: outside;
-    margin-left: 1.3em;
+  list-style-type: square;
+  list-style-position: outside;
+  margin-left: 1.3em;
 }
 
+.section {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0 15px;
+}
+.section:last-child { border: none; }
 
-a:hover {
-  background-color:#ba0018;
-  color:#fff;
-}
-.key:first-child { margin-left: 0 }
-.key { margin: 0 10px;
-       position: relative;
-}
-.key::before { content: '◆';
-               position: absolute;
-               left: -15px;
-               color: #555;
-               font-size: 7pt;
-}
-.key:first-child::before { content: '' }
-.section { border-bottom: 1px solid #ddd;
-           padding: 10px 0 15px;
-}
-.section:last-child { border: none }
-.section-text { width: 80%;
-                font-size: 18px;
-                line-height: 24px;
-                margin: 10px 0 10px;
-                padding: 0 10px;
-}
-.subsection { margin: 10px 0 5px }
-.desc { font-size: 16px; font-family: 'Source Sans Pro', sans-serif; color:#444;}
-.contact-info { font-size: 16px;
-                text-align: right;
-}
-.light { color: #aaa;letter-spacing:1px;
-         font-size: 14px;
-         line-height:28px;
-         font-family: 'Source Sans Pro', sans-serif;
-         text-transform:uppercase;
+.section-text {
+  width: 80%;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 10px 0 10px;
+  padding: 0 10px;
 }
 
-.skill-cat { color: #0c457d;letter-spacing:1px;
-         font-size: 14px;
-         line-height:28px;
-         font-family: 'Source Sans Pro', sans-serif;
-         font-weight: 600;
-         text-transform:none;
+.desc { font-size: 16px; color:#444; }
+.contact-info { font-size: 16px; text-align: right; }
+.light {
+  color: #aaa;
+  letter-spacing: 1px;
+  font-size: 14px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.skill-cat {
+  color: #0c457d;
+  letter-spacing: 1px;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 600;
+  text-transform: none;
 }
 
+/* lists */
+ul { padding-left:15px; }
+ul.skills { float:left; width:30%; padding-left:0; margin:0 20px 0 0; }
+ul.skills li { list-style:none; font-size:16px; margin-bottom:10px; }
+ul.skills li:last-child { margin:0; }
 
-ul{
-  padding-left:15px;
+ul.keywords, ul.courses { margin-top:.5em; }
+ul.keywords li, ul.courses li {
+  display:inline-block;
+  margin:2px 2px 2px 0;
+  padding:4px 5px 5px;
+  font-size:.9rem;
+  line-height:1;
+  color:#3e6d8e;
+  background-color:#dfeaf1;
+  border:0 solid #dfeaf1;
+  white-space:nowrap;
 }
+ul.keywords li:hover, ul.courses li:hover { background:#dfeaf0; }
 
-ul.skills{
-  float:left;
-  width:30%;
-  padding-left:0px;
-  margin: 0 20px 0 0;
+/* floats (legacy layout bits still used elsewhere) */
+.row:before, .row:after { content:""; display:table; }
+.row:after { clear:both; }
+.col { float:left; }
+.col-right { float:right; }
+.col-left { float:left; }
+
+/* Page wrapper */
+.page {
+  width:1000px;
+  min-height:29.7cm;
+  margin:1cm auto;
+  background:#fff;
+  padding:20px 50px;
 }
+.container { width:1000px; margin:0 auto; padding:20px 50px; }
 
-ul.skills li{
-  list-style: none;
-  font-size:16px;
-  margin-bottom:10px;
-}
-
-ul.skills li:last-child{
-  margin:0;
-}
-
-
-ul.keywords,
-ul.courses {
-    margin-top: .5em;
-}
-
-ul.keywords li,
-ul.courses li {
-    display: inline-block;
-    margin: 2px 2px 2px 0;
-    padding: 4px 5px 5px;
-    font-size: .9rem;
-    line-height: 1;
-    text-transform: none;
-    color: #3e6d8e;
-    background-color: #dfeaf1;
-    border: 0 solid #dfeaf1;
-    white-space: nowrap;
-}
-
-ul.keywords li:hover,
-ul.courses li:hover {
-    background: #dfeaf0;
-}
-
-/*
- Float Rules
-*/
-.row:before, .row:after { content: "";
-                          display: table;
-}
-.row:after { clear: both }
-.col { float: left }
-.col-right { float: right }
-.col-left {float: left}
-
-/*
- Page Rules
-*/
-.page { width: 1000px;
-        min-height: 29.7cm;
-        margin: 1cm auto;
-
-        background: white;
-        padding: 20px 50px;
-}
-.subpage { padding: 1cm;
-           border: 1px red solid;
-           height: 297mm;
-}
-
-@page { size: A4;
-        margin: 0;
-}
-
-@media print {
-    .page { margin: 0;
-            border: initial;
-            border-radius: initial;
-            width: initial;
-            min-height: initial;
-            box-shadow: initial;
-            background: initial;
-            page-break-after: always;
-    }
-    .page-break{
-      page-break-before: always;
-      padding-top:30px;
-    }
-
-    body { font-size: 12pt;}
-    h1{
-      font-size: 23pt;
-    }
-
-    h2{
-      font-size:10pt;
-      width: 3cm;
-      padding-left: 10px;
-    }
-
-    h3 { font-size: 10pt; line-height:11pt}
-
-    .section-text { font-size: 9pt; line-height: 14pt; }
-
-    .light { font-size: 7.5pt; line-height:12pt; color:#ddd; }
-    
-    .page { width: 21cm }
-    ul {margin:5px 0 0}
-    .section { padding: 5px 0 8px }
-    .section-text { width: 15cm; margin: 5px 0 5px;}
-    .subsection { margin: 5px 0 0 }
-
-.main-summary {
-    background: #f1f8ff;
-    padding: 25px 50px 75px 100px;
-    margin-top: 1rem;
-}
-
-.main-summary p {
-    margin: .15em 0 0;
-    padding: 25px 50px 75px 100px;
-}
-
-.section.main-summary>section {
-    margin: 0;
-    padding: 25px 50px 75px 100px;
-}
-
-
-    .desc { font-size: 9pt }
-    
-    .contact-info { font-size: 9pt}
-    
-    ul.skills{margin: 0 10px 0 0;}
-    ul.skills li{ font-size: 9pt; margin-bottom:0}
-
-}
-
-/* Top bar */
+/* ===============================
+   Top bar / nav
+================================= */
 .topbar {
   border-bottom: 1px solid #eee;
   background: #fff;
@@ -245,165 +134,129 @@ ul.courses li:hover {
   z-index: 10;
 }
 .topbar-inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 14px 50px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:14px 50px;
 }
 .brand {
-  font-family: 'Helvetica', serif;
-  font-size: 24px;
-  color: #0c457d;
-  font-weight: 300;
+  font-family:'Helvetica', serif;
+  font-size:24px;
+  color:#0c457d;
+  font-weight:300;
 }
-.brand span { font-weight: 700; }
+.brand span { font-weight:700; }
 
-.nav .nav-link {
-  margin-left: 14px;
-  font-size: 16px;
-  color: #0c457d;
-}
-.nav .nav-link.active {
-  border-bottom: 2px solid #ba0018;
-}
-
-/* Hero */
-.hero {
-  border-bottom: none;
-  padding-top: 28px;
-}
-.hero-photo img {
-  display: block;
-  width: 260px;
-  height: 260px;
-  object-fit: cover;
-  border-radius: 6px;
-  box-shadow: 0 8px 24px rgba(0,0,0,.08);
-}
-.hero-text { max-width: 62%; }
-
-.cta-row {
-  margin-top: 16px;
-}
-.btn {
-  display: inline-block;
-  padding: 10px 16px;
-  border-radius: 6px;
-  background: #ba0018;
-  color: #fff;
-  font-weight: 600;
-  margin-right: 8px;
-}
-.btn.ghost {
-  background: transparent;
-  border: 1px solid #ba0018;
-  color: #ba0018;
-}
-
-/* Footer */
-.footer {
-  border-top: 1px solid #eee;
-  padding: 20px 50px 40px;
-  margin-top: 20px;
-}
-
-/* Small screens */
-@media (max-width: 900px) {
-  .topbar-inner { padding: 12px 20px; }
-  .page { width: auto; margin: 0 auto; padding: 12px 20px; }
-  .hero { display: block; }
-  .hero-photo { float: none; margin-bottom: 18px; }
-  .hero-text { max-width: 100%; }
-}
-
-.container {
-  width: 1000px;
-  margin: 0 auto;
-  padding: 20px 50px;
-}
-
-
-/* smaller, pale-blue chips (override the red .btn) */
-.cta-row { margin-top: 10px; }
-.cta-row .btn { margin-right: 8px; }
-
-.btn--small {
-  padding: 6px 10px;
-  font-size: 14px;
-  line-height: 1;
-  border-radius: 999px; /* pill */
-  font-weight: 600;
-}
-
-.btn--pale {
-  background: #dfeaf1;      /* pale blue like your quick links */
-  color: #3e6d8e;
-  border: 1px solid #dfeaf1;
-}
-
-/* keep hover blue (override your global a:hover red) */
-.btn--pale:hover {
-  background: #d7e6ef;
-  color: #3e6d8e;
-}
-
-/* New button category: dark-blue hover buttons */
+/* New nav button style (decoupled from global a:hover) */
 .btn--nav {
-  display: inline-block;
-  padding: 8px 14px;
-  border-radius: 4px;
-  font-size: 16px;
-  color: #0c457d;            /* base text */
-  transition: background-color .15s, color .15s, border-color .15s;
+  display:inline-block;
+  padding:8px 14px;
+  border-radius:4px;
+  font-size:16px;
+  color:#0c457d;
+  transition:background-color .15s, color .15s, border-color .15s;
 }
-
 .btn--nav:hover,
 .btn--nav:focus-visible {
-  background: #0c457d;       /* dark blue background */
-  color: #fff;               /* white text */
-  text-decoration: none;
+  background:#0c457d;
+  color:#fff;
+  text-decoration:none;
 }
-
 .btn--nav.active {
-  color: #0c457d;
+  color:#0c457d;
   text-decoration: underline 2px solid #0c457d;
-  text-underline-offset: 4px; /* pushes underline a bit lower */
-  background: transparent;
+  text-underline-offset:4px;
+  background:transparent;
 }
-
 .btn--nav.active:hover {
-  background: #0c457d;
-  color: #fff;
-  border-bottom-color: #0c457d;
+  background:#0c457d;
+  color:#fff;
 }
 
+/* (If you’re no longer using .nav-link, you can remove these.
+   Keeping base color is harmless.) */
+.nav .nav-link { margin-left:14px; font-size:16px; color:#0c457d; }
 
+/* ===============================
+   Hero (photo + blurb)
+================================= */
+.hero { border-bottom:none; padding-top:28px; }
+
+/* align photo + blurb tops with flex */
 .hero.section.row {
-  display: flex;
-  align-items: flex-start;  /* align tops of photo + blurb */
-  gap: 30px;                /* space between image and text */
+  display:flex;
+  align-items:flex-start;     /* top align */
+  gap:30px;
 }
 
+/* bigger, responsive photo */
 .hero-photo img {
-  max-width: 500px;   /* adjust as needed */
-  height: auto;       /* keep proportions */
-  display: block;
-  border-radius: 6px;
-  box-shadow: 0 8px 24px rgba(0,0,0,.08);
+  max-width:500px;
+  height:auto;
+  display:block;
+  border-radius:6px;
+  box-shadow:0 8px 24px rgba(0,0,0,.08);
+}
+.hero .hero-photo { align-self:flex-start; }
+
+/* remove default top spacing that caused the tiny offset */
+.hero .section-text { margin-top:0; padding-top:0; }
+
+/* let text fill remaining space while keeping your 62% cap */
+.hero-text { flex:1; max-width:62%; }
+
+/* CTAs */
+.cta-row { margin-top:16px; }
+.btn {
+  display:inline-block;
+  padding:10px 16px;
+  border-radius:6px;
+  background:#ba0018;
+  color:#fff;
+  font-weight:600;
+  margin-right:8px;
+}
+.btn.ghost { background:transparent; border:1px solid #ba0018; color:#ba0018; }
+
+/* small pale chips */
+.btn--small { padding:6px 10px; font-size:14px; line-height:1; border-radius:999px; font-weight:600; }
+.btn--pale { background:#dfeaf1; color:#3e6d8e; border:1px solid #dfeaf1; }
+.btn--pale:hover { background:#d7e6ef; color:#3e6d8e; }
+
+/* ===============================
+   Footer
+================================= */
+.footer { border-top:1px solid #eee; padding:20px 50px 40px; margin-top:20px; }
+
+/* ===============================
+   Print
+================================= */
+@media print {
+  .page { margin:0; border:initial; border-radius:initial; width:initial; min-height:initial; box-shadow:initial; background:initial; page-break-after:always; }
+  .page-break { page-break-before:always; padding-top:30px; }
+  body { font-size:12pt; }
+  h1 { font-size:23pt; }
+  h2 { font-size:10pt; width:3cm; padding-left:10px; }
+  h3 { font-size:10pt; line-height:11pt; }
+  .section-text { font-size:9pt; line-height:14pt; }
+  .light { font-size:7.5pt; line-height:12pt; color:#ddd; }
+  .page { width:21cm; }
+  ul { margin:5px 0 0; }
+  .section { padding:5px 0 8px; }
+  .section-text { width:15cm; margin:5px 0 5px; }
+  .subsection { margin:5px 0 0; }
+  .main-summary { background:#f1f8ff; padding:25px 50px 75px 100px; margin-top:1rem; }
+  .main-summary p { margin:.15em 0 0; padding:25px 50px 75px 100px; }
+  .section.main-summary>section { margin:0; padding:25px 50px 75px 100px; }
 }
 
-.hero-text {
-  flex: 1;            /* let text expand to fill space */
-  max-width: 62%;     /* keep your existing width cap */
-}
-
-/* Align tops in hero: remove the 10px top margin on the blurb box */
-.hero .section-text {
-  margin-top: 0;       /* was 10px */
-  padding-top: 0;
-}
-
-/* (Optional) be explicit that the image sits at the top in the flex row */
-.hero .hero-photo {
-  align-self: flex-start;
+/* ===============================
+   Small screens
+================================= */
+@media (max-width: 900px) {
+  .topbar-inner { padding:12px 20px; }
+  .page { width:auto; margin:0 auto; padding:12px 20px; }
+  .hero { display:block; }
+  .hero-photo { float:none; margin-bottom:18px; }
+  .hero-text { max-width:100%; }
 }
