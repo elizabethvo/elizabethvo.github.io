@@ -376,3 +376,23 @@ ul.courses li:hover {
   color: #fff;
   border-bottom-color: #0c457d;
 }
+
+
+.hero.section.row {
+  display: flex;
+  align-items: flex-start;  /* align tops of photo + blurb */
+  gap: 24px;                /* space between image and text */
+}
+
+.hero-photo img {
+  max-width: 300px;   /* adjust as needed */
+  height: auto;       /* keep proportions */
+  display: block;
+  border-radius: 6px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.08);
+}
+
+.hero-text {
+  flex: 1;            /* let text expand to fill space */
+  max-width: 62%;     /* keep your existing width cap */
+}
