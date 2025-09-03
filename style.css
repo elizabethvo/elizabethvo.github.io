@@ -315,3 +315,9 @@ ul.courses li:hover {
   .hero-photo { float: none; margin-bottom: 18px; }
   .hero-text { max-width: 100%; }
 }
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px 50px;
+}
