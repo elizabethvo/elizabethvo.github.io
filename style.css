@@ -381,11 +381,11 @@ ul.courses li:hover {
 .hero.section.row {
   display: flex;
   align-items: flex-start;  /* align tops of photo + blurb */
-  gap: 24px;                /* space between image and text */
+  gap: 30px;                /* space between image and text */
 }
 
 .hero-photo img {
-  max-width: 300px;   /* adjust as needed */
+  max-width: 400px;   /* adjust as needed */
   height: auto;       /* keep proportions */
   display: block;
   border-radius: 6px;
@@ -395,4 +395,15 @@ ul.courses li:hover {
 .hero-text {
   flex: 1;            /* let text expand to fill space */
   max-width: 62%;     /* keep your existing width cap */
+}
+
+/* Align tops in hero: remove the 10px top margin on the blurb box */
+.hero .section-text {
+  margin-top: 0;       /* was 10px */
+  padding-top: 0;
+}
+
+/* (Optional) be explicit that the image sits at the top in the flex row */
+.hero .hero-photo {
+  align-self: flex-start;
 }
