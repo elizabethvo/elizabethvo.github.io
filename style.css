@@ -365,10 +365,8 @@ ul.courses li:hover {
 }
 
 .btn--nav.active {
-  color: #0c457d;
-  text-decoration: underline 2px solid #0c457d;
-  text-underline-offset: 4px; /* pushes underline a bit lower */
-  background: transparent;
+  border-bottom: 2px solid #0c457d;
+  border-radius: 0;   /* keeps underline flat, not curved */
 }
 
 .btn--nav.active:hover {
