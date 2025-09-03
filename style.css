@@ -321,3 +321,29 @@ ul.courses li:hover {
   margin: 0 auto;
   padding: 20px 50px;
 }
+
+
+/* smaller, pale-blue chips (override the red .btn) */
+.cta-row { margin-top: 10px; }
+.cta-row .btn { margin-right: 8px; }
+
+.btn--small {
+  padding: 6px 10px;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 999px; /* pill */
+  font-weight: 600;
+}
+
+.btn--pale {
+  background: #dfeaf1;      /* pale blue like your quick links */
+  color: #3e6d8e;
+  border: 1px solid #dfeaf1;
+}
+
+/* keep hover blue (override your global a:hover red) */
+.btn--pale:hover {
+  background: #d7e6ef;
+  color: #3e6d8e;
+}
+
