@@ -347,3 +347,28 @@ ul.courses li:hover {
   color: #3e6d8e;
 }
 
+/* --- Topbar nav link styling --- */
+.nav .nav-link {
+  color: #0c457d;            /* dark blue default */
+  position: relative;
+  padding: 4px 8px;
+  transition: color 0.2s, background-color 0.2s;
+}
+
+/* underline for active page */
+.nav .nav-link.active::after {
+  content: "";
+  display: block;
+  height: 3px;
+  background-color: #0c457d; /* dark blue underline */
+  margin-top: 4px;
+  border-radius: 2px;
+}
+
+/* hover effect: dark blue background, white text */
+.nav .nav-link:hover {
+  background-color: #0c457d;
+  color: #fff;
+  border-radius: 3px;
+}
+
