@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Elizabeth Vo-Phamhi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700|Source+Sans+Pro:400,400i" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Top bar / nav -->
+    <header class="topbar">
+      <div class="page topbar-inner">
+        <a class="brand" href="index.html"><span>Elizabeth</span> Vo-Phamhi</a>
+        <nav class="nav">
+          <a class="nav-link active" href="index.html">Home</a>
+          <a class="nav-link" href="exp.html">Experience</a>
+          <!-- Add more pages later if you like -->
+          <!-- <a class="nav-link" href="projects.html">Projects</a> -->
+          <!-- <a class="nav-link" href="writing.html">Writing</a> -->
+          <a class="nav-link" href="mailto:lizvo@sas.upenn.edu">Contact</a>
+          <a class="nav-link" href="https://www.linkedin.com/in/elizabeth-v-04a8a2219/" target="_blank" rel="noopener">LinkedIn</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero section -->
+    <main class="page">
+      <section class="hero section row">
+        <div class="col-left hero-photo">
+          <!-- Replace with your image path; keep ~1:1 or 4:5 for best fit -->
+          <img src="assets/profile.jpg" alt="Elizabeth Vo-Phamhi" />
+        </div>
+
+        <div class="section-text col-right hero-text">
+          <h1 style="margin-top:0;"><span style="font-weight:700">Elizabeth</span> Vo-Phamhi</h1>
+          <p style="color:#2d3540; font-size:18px; line-height:28px; margin-top:10px;">
+            ORDP Analyst II at Roche/Genentech focused on biopharma operations, data analytics,
+            and supply-chain resilience. I build practical, data-driven tools that make
+            manufacturing and clinical supply decisions faster and more reliable.
+          </p>
+
+          <p class="light" style="margin-top:10px;">
+            Philadelphia → San Francisco · Cognitive Science & Classical Studies @ Penn · Loves running,
+            dogsitting, Steph Curry, and pasta.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn" href="exp.html">View Experience</a>
+            <a class="btn ghost" href="mailto:lizvo@sas.upenn.edu">Email Me</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Optional quick links / cards (delete if you want ultra-minimal) -->
+      <section class="section">
+        <div class="section-text">
+          <h2 style="width:auto; padding-left:0;">Quick Links</h2>
+          <ul class="keywords" style="width:100%; padding-left:0;">
+            <li><a href="exp.html">Resume / Experience</a></li>
+            <!-- Add later if/when you create them -->
+            <!-- <li><a href="projects.html">Projects</a></li> -->
+            <!-- <li><a href="writing.html">Writing</a></li> -->
+            <li><a href="https://www.linkedin.com/in/elizabeth-v-04a8a2219/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="mailto:lizvo@sas.upenn.edu">Contact</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="page">
+        <div class="light">© <span id="year"></span> Elizabeth Vo-Phamhi</div>
+      </div>
+      <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+      </script>
+    </footer>
+  </body>
+</html>
