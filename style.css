@@ -347,6 +347,33 @@ ul.courses li:hover {
   color: #3e6d8e;
 }
 
+/* Keep normal links minimal on hover */
+a:hover {
+  background: transparent;
+  color: #0c457d;              /* your dark blue */
+  text-decoration: underline;
+}
+
+/* Topbar-only hover/active */
+.topbar .nav .nav-link {
+  color: #0c457d;
+  padding: 6px 10px;
+  border-radius: 4px;
+  transition: background-color .15s, color .15s, border-color .15s;
+}
+
+.topbar .nav .nav-link:hover,
+.topbar .nav .nav-link:focus-visible {
+  background: #0c457d;
+  color: #fff;                 /* white on hover */
+  text-decoration: none;
+}
+
+.topbar .nav .nav-link.active {
+  background: transparent;
+  color: #0c457d;
+  border-bottom: 2px solid #0c457d;  /* blue underline for current page */
+}
 
 
 
