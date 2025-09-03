@@ -385,7 +385,7 @@ ul.courses li:hover {
 }
 
 .hero-photo img {
-  max-width: 400px;   /* adjust as needed */
+  max-width: 500px;   /* adjust as needed */
   height: auto;       /* keep proportions */
   display: block;
   border-radius: 6px;
