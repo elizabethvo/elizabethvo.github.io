@@ -203,7 +203,7 @@ ul.keywords li:hover, ul.courses li:hover { background:#dfeaf0; }
 .hero .section-text { margin-top:0; padding-top:0; }
 
 /* let text fill remaining space while keeping your 62% cap */
-.hero-text { flex:1; max-width:70%; }
+.hero-text { flex:1; max-width:72%; }
 
 /* CTAs */
 .cta-row { margin-top:16px; }
