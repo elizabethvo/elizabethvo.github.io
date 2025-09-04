@@ -260,3 +260,19 @@ ul.keywords li:hover, ul.courses li:hover { background:#dfeaf0; }
   .hero-photo { float:none; margin-bottom:18px; }
   .hero-text { max-width:100%; }
 }
+
+
+.story-photos {
+  display: flex;
+  gap: 16px;              /* space between the two images */
+  flex-wrap: wrap;        /* so they stack on small screens */
+  margin-top: 12px;
+}
+
+.story-photos img {
+  flex: 1;                /* let them share available space */
+  max-width: 48%;         /* about half each, with gap */
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.08);
+}
